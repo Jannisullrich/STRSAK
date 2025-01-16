@@ -1,0 +1,62 @@
+:root {
+    --background-color: #131316;
+    --primary_color: #FF0044;
+    --secondaryfarbe: #ffa600;
+    --font: "Oswald", sans-serif;
+}
+
+*{
+    font-family: var(--font);
+}
+
+#navigation-bar{
+    backdrop-filter: blur(10px);
+    height: 3.5vmax;
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:auto;
+    
+}
+
+body{
+    background-color: var(--background-color);
+}
+#tab{
+    color:var(--secondaryfarbe);
+    transition: 200ms;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#tab:hover{
+    color: rgb(0, 4, 255);
+    font-size: 20px;
+    transition: 200ms;
+    cursor:pointer;
+}
+
+#Login_button{
+    position: absolute;
+    right: 4vmax;
+    top: 2vmax;
+    background-color:var(--primary_color);
+    padding: 0.5vmax 2.5vmax 0.5vmax 2.5vmax;
+    border-radius: 0.5vmax;
+    cursor: pointer;
+    box-sizing: border-box;
+    border:0.2vmax solid transparent;
+
+    
+
+}
+
+#Login_button:hover{
+    background-color: white;
+    border: 0.2vmax solid var(--primary_color);
+    
+}
