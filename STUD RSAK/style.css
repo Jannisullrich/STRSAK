@@ -1,10 +1,10 @@
 body {
-    background-color: #00a3fa;
+    background-color: #005fcd;
     color: white;
 }
 
 h1 {
-    font-family: Arial, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
 table {
@@ -12,14 +12,44 @@ table {
     margin: 0 auto;
     background-color: #156490;
     border-collapse: collapse;
+    table-layout: auto;
 }
 
 th, td {
     border: 4px solid white;
-    padding: 5px;
+    padding: 8px;
     text-align: center;
+    font-size: 20px;
+    
 }
 
 thead {
-    background-color: yellowgreen;
+    background-color: #16264a;
 }
+
+.fach {
+    background-color: #007be5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding: 8px;
+
+
+
+}
+
+.pause {
+    background-color: darkcyan;
+}
+
+
+.mainfächer {
+    background-color: #960027;
+}
+
+table .mittagspause {
+
+    background-color: darkorange;
+}
+
+
+
